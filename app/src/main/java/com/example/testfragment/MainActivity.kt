@@ -108,11 +108,11 @@ class MainActivity() : AppCompatActivity(), View.OnClickListener, BottomNavigati
         when(item.itemId) {
             R.id.menu_home -> {
                 toolbar.title = "Home"
-                setFragment(consoleFragment)
+                setFragment(homeFragment)
             }
             R.id.menu_console  -> {
                 toolbar.title = "Consoles"
-                setFragment(homeFragment)
+                setFragment(consoleFragment)
             }
             R.id.menu_games -> {
                 toolbar.title = "Games"
