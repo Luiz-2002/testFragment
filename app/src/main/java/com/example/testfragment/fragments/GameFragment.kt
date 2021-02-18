@@ -41,13 +41,14 @@ class GameFragment : Fragment() {
         // Atualizar a lista de jogos do adapter
         gameAdapter.updateGameList(gameList)
 
+        // *** Tornar o menu visível
         setHasOptionsMenu(true)
 
         return view
     }
+
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
-
         inflater.inflate(R.menu.menu_game, menu)
     }
 }
