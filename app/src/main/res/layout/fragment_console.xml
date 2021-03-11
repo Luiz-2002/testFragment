@@ -13,6 +13,7 @@
         tools:listitem="@layout/holder_console_layout"/>
 
     <ImageButton
+        android:id="@+id/button_novo_console"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_margin="8dp"
